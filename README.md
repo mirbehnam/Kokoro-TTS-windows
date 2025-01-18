@@ -19,7 +19,7 @@ A simple, ready-to-use version of **Kokoro TTS Local** for Windows. No setup, no
 ## **How to Use**
 1. **[Download the ZIP file](https://github.com/mirbehnam/Kokoro-TTS-windows/releases)**.  
 2. Extract it to your desired location.  
-3. Run `start.bat` to launch the app.  
+3. Run `run_kokoro.bat` to launch the app.  
 4. Open your browser and enjoy the easy-to-use interface!  
 
 ---
