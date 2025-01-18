@@ -1,0 +1,10 @@
+torch
+phonemizer-fork
+transformers
+scipy
+munch
+soundfile
+huggingface-hub
+espeakng-loader
+gradio>=4.0.0
+pydub  # For audio format conversion 

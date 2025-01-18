@@ -1,0 +1,35 @@
+@echo off
+
+:: Define environment variables for local storage
+set HF_HOME=%cd%\cache\huggingface
+set TRANSFORMERS_CACHE=%cd%\cache\transformers
+set TORCH_HOME=%cd%\cache\torch
+set PYTHONUSERBASE=%cd%\cache\python
+set PIP_CACHE_DIR=%cd%\cache\pip
+set TEMP=%cd%\cache\temp
+set TMP=%cd%\cache\temp
+
+:: Create virtual environment inside the project folder
+
+ echo Creating virtual environment...
+ runtime\python.exe -m venv venv
+
+
+:: Activate the virtual environment
+call .\venv\Scripts\activate
+echo Setting up Kokoro TTS Local...
+
+:: Check if Python is installed
+runtime\python.exe --version >nul 2>&1
+if errorlevel 1 (
+    echo Error: Python is not installed. Please install Python 3.8 or higher.
+    exit /b 1
+)
+
+
+:: Install dependencies
+echo Installing dependencies...
+runtime\Scripts\pip.exe install -r requirements.txt
+
+echo Setup complete! You can now run: python tts_demo.py
+pause
