@@ -1,10 +1,10 @@
 
----
-
 # **Kokoro TTS Local for Windows**  
 🚀 **[Download Here](https://github.com/YOUR-REPO/releases)** 🚀  
 
 A simple, ready-to-use version of **Kokoro TTS Local** for Windows. No setup, no commands—just unzip and start using!  
+
+![Kokoro TTS Interface](https://github.com/mirbehnam/Kokoro-TTS-windows/blob/main/screenshots/shot.png?raw=true)
 
 ---
 
@@ -32,6 +32,6 @@ Based on the original **Kokoro TTS Local** by [PierrunoYT](https://github.com/Pi
 ## **License**  
 Licensed under [Apache 2.0](LICENSE).  
 
---- 
+---
 
-This keeps it straightforward and highlights the download link at the top for easy access. Let me know if you'd like further tweaks!
+Let me know if you need further adjustments!
