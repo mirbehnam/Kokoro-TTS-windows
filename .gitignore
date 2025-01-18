@@ -19,7 +19,8 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
+runtime/
+resources/
 # Virtual Environment
 venv/
 ENV/
